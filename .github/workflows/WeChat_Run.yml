@@ -3,9 +3,9 @@ name: Action Task WeChat_Run
 on:
   # 手动执行
   workflow_dispatch:
-  schedule:
-  # 定时任务，在每天的08:00执行
-    - cron: '0 0 * * *'
+  # schedule:
+  # # 定时任务，在每天的08:00执行
+   # - cron: '0 0 * * *'
 jobs:
 
   run-python-script:
